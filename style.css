@@ -1,0 +1,325 @@
+/*   -- Ciemny motyw do plemion --   */
+    /*by: alexknoxx.com edited by carving85*/
+    body {
+        color:#d5d5d5!important;
+        background-image: url(https://i.imgur.com/2MhHB4E.jpg) !important;
+    }
+    .top_bar {
+    }
+    hr {
+        border-bottom:1px solid #555!important;
+        border-top:1px solid #555!important;
+    }
+    .top_shadow {
+        background:#666!important;
+    }
+    th, .vis > h4 {
+        border-radius:5px!important;
+        box-shadow:1px 1px 20px #000!important;
+        color:#999!important;
+        background-image: url(http://images.orkut.com/orkut/photos/OQAAAGjCh1OQksKX_V4niIaFuum9FRJ9HjZKVtc1xqYsFaKScS7UwxO-GQFkPj9abVyJSEGOdNX_f8zghkVhmrgy8j0Am1T1UGyNbVn476HmInjGG81NZnrR_z5a.jpg) !important;
+        background-color: transparent !important;
+    }
+    .vis td, .vis_item {
+        color:#bbb!important;
+        background:#000!important;
+    }
+    h2 {
+        color:#cccccc!important;
+    }
+    a {
+        color:#d0d0d0!important;
+    }
+    a:hover {
+        color:#f1f1f1!important;
+        text-shadow:1px 1px 2px aqua!important;
+    }
+    .post {
+        background:#111!important;
+    }
+    .igmline {
+        background:#333!important;
+    }
+    .maincell {
+        background:#111!important;
+    }
+    .header-border .firstcell, .icon-box, .box-item {
+        color:#fff!important;
+        border:solid 1px #555!important;
+        padding:3px!important;
+        background:#333!important;
+    }
+    .quest {
+        background-color:#111!important;
+        border:1px solid #333!important;
+    }
+    .report_transparent_overlay {
+        background-image:none!important;
+        box-shadow: 1px 1px 50px #000 inset !important;
+    }
+    #content_value table {
+        border:none !important;
+    }
+    #mapCoords {
+        background-color:#000!important;
+    }
+    .server_info {
+        color:#fff!important;
+        text-shadow:1px 1px 2px aqua !important;
+    }
+    /*layout*/
+    .content-border {
+        background:#111!important;
+        border:solid 1px #666!important;
+    }
+    #main_layout .bg_left {
+        background:#111!important;
+    }
+    #main_layout .bg_bottomleft {
+        background:#111!important;
+    }
+    #main_layout .bg_bottomcenter {
+        background:#111!important;
+    }
+    #main_layout .bg_bottomright {
+        background:#111!important;
+    }
+    #main_layout .bg_right {
+        background:#111!important;
+    }
+    #main_layout .bg_leftborder {
+        background:#111!important;
+    }
+    .server_info {
+        background:#111!important;
+    }
+    #main_layout .bg_rightborder {
+        background:#111!important;
+    }
+    #footer, #inline_popup_menu {
+        background-image: url(http://images.orkut.com/orkut/photos/OQAAAGjCh1OQksKX_V4niIaFuum9FRJ9HjZKVtc1xqYsFaKScS7UwxO-GQFkPj9abVyJSEGOdNX_f8zghkVhmrgy8j0Am1T1UGyNbVn476HmInjGG81NZnrR_z5a.jpg) !important;
+        background-color: transparent !important;
+    }
+    /*fim - layout*/
+    /*premium*/
+    #quickbar_inner .bottomborder .main, .quickbar, .topborder .main, #quickbar_inner .left, #quickbar_inner .right {
+        background-image: url(http://images.orkut.com/orkut/photos/OQAAAGjCh1OQksKX_V4niIaFuum9FRJ9HjZKVtc1xqYsFaKScS7UwxO-GQFkPj9abVyJSEGOdNX_f8zghkVhmrgy8j0Am1T1UGyNbVn476HmInjGG81NZnrR_z5a.jpg) !important;
+        background-color: transparent !important;
+    }
+    #quickbar_inner .left, #quickbar_inner .right {
+        width:1px!important;
+    }
+    /*fim - premium*/
+    #inner-border {
+        border:solid 1px #555!important;
+    }
+    div.vis {
+        border:1px solid #000000!important;
+        border-radius:10px!important;
+        box-shadow:1px 1px 20px #000!important;
+    }
+    #content_value th {
+        background-color:#333!important;
+    }
+    #inline_popup_main {
+        border:solid 1px #555!important;
+        background:#333!important;
+    }
+    #inline_popup {
+        border:solid 1px #444!important;
+    }
+    .forum {
+        background:#333!important;
+    }
+    #forum_box {
+        background:#000!important;
+    }
+    .thread_button span {
+        color:black!important;
+    }
+    /*   -- Everything below is added by jonardkid --  */
+    /*--Popup Box / Quests - Fix Incomplete--*/
+    table#popup_box table {
+        background: #111111!important;
+    }
+    td.popup_box_content {
+        background: #111111!important;
+    }
+    td.popup_box_content table {
+        background: #202020!important;
+    }
+    td.popup_box_content table tbody {
+        background: #202020!important;
+    }
+    td.popup_box_content table tbody tr td.quest-summary {
+        background: #252525!important;
+    }
+    /*--Tooltips Fix--*/
+    div#tooltip {
+        background: #111111!important;
+    }
+    /*--Spoiler Fix--*/
+    div.spoiler div {
+        background: #202020!important;
+    }
+    /*--Forum Fix--*/
+    td.quote_message {
+                background: #111111!important; /*Quote*/
+     }
+
+    div#forum_box table {
+        background: #111111 !important;
+        color:#656565 !important;
+    }
+    div#forum_box a {
+        color:#656565 !important;
+    }
+    .shared_forum {
+                background: #000 !important;        /*Background zakładek shared*/
+                 border: 1px solid #FF8C00 !important
+            }
+                .shared_forum shared_selected {        
+                background: #000 !important;
+                }
+
+
+    td.small {
+        color: #7f7f7f !important;
+    }
+    div.containerBorder table {
+        background: #202020 !important;
+    }
+    /*--Map Fix--*/
+    div#worldmap div#worldmap_header div {
+        background: #111111 !important;
+    }
+    div#worldmap div#worldmap_footer {
+        background: #111111 !important;
+    }
+    td#quickbar_contents {
+        background: #111111 !important;
+    }
+    div.forum-content {
+        background:#2d2d2b !important;
+    }
+    div.chat-window {
+        border: 1px solid #444 !important
+    }
+    div.chat-header {
+        background:#2d2d2b !important;
+    }
+    div.chat-body {
+        background:#111111 !important;
+        border: 1px solid #444 !important
+    }
+    div.chat-message {
+        background:#2d2d2b !important;
+        border: 1px solid #444 !important
+    }
+    div.chat-row:hover {
+        background:#2d2d2b !important;
+    }
+    input.chat-input {
+        background-color:#111111 !important;
+        color:#d5d5d5 !important
+    }
+    textarea.chat-input {
+        background-color:#111111 !important;
+        color:#d5d5d5 !important
+    }
+    div.chat-footer {
+        background-color:#111111 !important
+    }
+    a.world_button_active {
+        background:#111111 !important
+    }
+    a img[Title=Nowe] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/2H2wz8H.png)
+    }
+    a img[Title=Przeczytane] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/nTQAsIY.png)
+    }
+    a img[Title="Odpowiedź wysłana"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/toALcPs.png)
+    }
+
+    td img[Title=Nowe] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/2H2wz8H.png)
+    }
+    td img[Title=Przeczytane] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/nTQAsIY.png)
+    }
+    td img[Title="Odpowiedź wysłana"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/toALcPs.png)
+    }
+    textarea#message {
+        background-color:#111111 !important;
+        color:#d5d5d5 !important;
+        border: 1px solid #444 !important
+                                                                           
+    }
+    td img[src="https://dspl.innogamescdn.com/asset/9a33d7a/graphic/forum/thread_closed_unread.png"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/1Bemv8Q.png)
+    }
+
+    td img[src="https://dspl.innogamescdn.com/asset/9a33d7a/graphic/forum/thread_closed.png"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/dzdxv2v.png)
+    }
+
+    td img[src="https://dspl.innogamescdn.com/asset/9a33d7a/graphic/forum/thread_read.png"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/3pTXZ2A.png)
+    }
+
+    td img[src="https://dspl.innogamescdn.com/asset/9a33d7a/graphic/forum/thread_unread.png"] {
+        object-position: -99999px 99999px;
+        background-image: url(https://i.imgur.com/jpZSqEP.png)
+    }
+    td.quote_message {
+        background: #111111!important; /*Quote*/
+    }
+    .shared_forum {
+        background: #2F4F4F !important;	/*Background zakładek shared*/
+         border: 1px solid #FF8C00 !important
+        
+    }
+
+    .village-note{	
+        background-color: #222;
+        color: white;
+    }
+
+    .content { 
+        background-color:#555 !important;
+   }
+   .res {
+   color: #7CFC00 !important;
+   }
+   #storage {
+   color: #1E90FF !important;
+   }
+
+   .warn { 
+        color: #FF0000 !important;
+   }
+   .warn_90 { 
+        color: #FFFF00 !important;
+   }
+   .popup_box show {
+       background-color: yellow;
+   }
+   #side-notification side-notification-visible{ 
+        background-color: transparent !important;
+   }
+   #plunder_list_filters {
+   background-color:#555 !important; /*Asystent farmera - opcje*/
+   }
+div#show_summary{filter:brightness(90%)}
