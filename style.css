@@ -29,7 +29,7 @@ th,
 .vis td,
 .vis_item {
     color: #bbb!important;
-    background: #000!important;
+    background: #222!important;
 }
 
 h2 {
@@ -529,4 +529,24 @@ div.report-preview-content {
 table#attack_spy_buildings_left,
 table#attack_spy_buildings_right {
     background: #111 !important;
+}
+
+table.am_overview_village_section>tbody tr td {
+    background-color: #111 !important;
+}
+
+tr.lit td.lit-item {
+    background-color: #444 !important;
+}
+
+td.cost_iron.warn {
+    color: #FF0000 !important;
+}
+
+td.cost_stone.warn {
+    color: #FF0000 !important;
+}
+
+td.cost_wood.warn {
+    color: #FF0000 !important;
 }
