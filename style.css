@@ -332,17 +332,17 @@ a.world_button_active {
 
 /* Ikonki do wiadomości */
 
-img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/new_mail.png"] {
+img[src*="new_mail.png"] {
     object-position: -99999px 99999px;
     background-image: url(https://i.imgur.com/2H2wz8H.png)
 }
 
-img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/read_mail.png"] {
+img[src*="read_mail.png"] {
     object-position: -99999px 99999px;
     background-image: url(https://i.imgur.com/nTQAsIY.png)
 }
 
-img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/answered_mail.png"] {
+img[src*="answered_mail.png"] {
     object-position: -99999px 99999px;
     background-image: url(https://i.imgur.com/toALcPs.png)
 }
@@ -356,24 +356,24 @@ textarea#message {
 
 /* Podmiana ikonek na forum */
 
-td img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/forum/thread_closed_unread.png"] {
+td img[src*="thread_closed_unread.png"] {
     object-position: -99999px 99999px !important;
-    background-image: url(https://i.imgur.com/1Bemv8Q.png) !important;
+    background-image: url(https://i.imgur.com/xfGiIjm.png) !important;
 }
 
-td img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/forum/thread_closed.png"] {
+td img[src*="thread_closed.png"] {
     object-position: -99999px 99999px !important;
     background-image: url(https://i.imgur.com/dzdxv2v.png) !important;
 }
 
-td img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/forum/thread_read.png"] {
+td img[src*="thread_read.png"] {
     object-position: -99999px 99999px !important;
     background-image: url(https://i.imgur.com/3pTXZ2A.png) !important;
 }
 
-td img[src="https://dspl.innogamescdn.com/asset/4b16a6f/graphic/forum/thread_unread.png"] {
+td img[src*="thread_unread.png"] {
     object-position: -99999px 99999px !important;
-    background-image: url(https://i.imgur.com/jpZSqEP.png) !important;
+    background-image: url(https://i.imgur.com/Iz8KZeA.png) !important;
 }
 
 td.quote_message {
@@ -549,4 +549,82 @@ td.cost_stone.warn {
 
 td.cost_wood.warn {
     color: #FF0000 !important;
+}
+
+
+/* Ekran powitalny */
+
+div#welcome-back{
+    background: #111 !important;
+}
+
+li.list-item.a{
+    background-color: #111 !important;
+}
+
+li.list-item.b{
+    background-color: #222 !important;
+}
+
+div#news{
+    background-color: #111;;
+}
+
+div#welcome-page h4{
+    background-color: #2d2d2b  !important;
+    background-image: none;
+}
+
+div#chartdiv canvas{
+    filter: brightness(30%);
+}
+
+ul.widget-tabs{
+    background-color: #111;
+}
+
+ul.widget-tabs li a{
+    background-color: #444444;
+} 
+
+ul.widget-tabs li a.selected{
+    background-color: #777777 !important;
+} 
+
+ul.widget-tabs li a:hover{
+    background-color: #777777 !important;
+} 
+
+
+div.widget-content{
+    background: #111;
+}
+div.widget-content>div{
+background: #111 !important;
+}
+
+
+/* Odznaczenia */
+div.award-group-content{
+    background-image: url(https://i.imgur.com/iiVeLr6.jpg) !important;
+}
+
+div.award-group-head{
+    background-image: url(https://i.imgur.com/UnJl1BB.jpg) !important;
+
+}
+
+
+div.award-group-foot{
+    background-image: url(https://i.imgur.com/Dn5MEOS.jpg) !important;
+
+}
+
+div.award-group hr{
+    background-image: url(https://i.imgur.com/JHJ4pGy.jpg) !important;
+
+}
+
+img.award-img, div.award img {
+    filter: brightness(30%);
 }
